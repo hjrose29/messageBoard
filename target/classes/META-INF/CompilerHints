@@ -1,0 +1,12 @@
+dontinline,bench/MyBenchmark.readMessagesBenchmark_avgt_jmhLoop
+dontinline,bench/MyBenchmark.readMessagesBenchmark_sample_jmhLoop
+dontinline,bench/MyBenchmark.readMessagesBenchmark_ss_jmhStub
+dontinline,bench/MyBenchmark.readMessagesBenchmark_thrpt_jmhLoop
+dontinline,bench/MyBenchmark.writeMessageBenchmark_avgt_jmhLoop
+dontinline,bench/MyBenchmark.writeMessageBenchmark_sample_jmhLoop
+dontinline,bench/MyBenchmark.writeMessageBenchmark_ss_jmhStub
+dontinline,bench/MyBenchmark.writeMessageBenchmark_thrpt_jmhLoop
+inline,bench/MyBenchmark.readMessagesBenchmark
+inline,bench/MyBenchmark.setup
+inline,bench/MyBenchmark.writeMessageBenchmark
+inline,org/openjdk/jmh/infra/Blackhole.clearSinks

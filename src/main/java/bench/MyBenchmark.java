@@ -9,12 +9,12 @@ import java.util.concurrent.TimeUnit;
 @Fork(value = 1, warmups = 1)
 public class MyBenchmark {
 
-    private parMessageBoard messageBoard;
+    private seqMessageBoard messageBoard;
 
     @Setup
     public void setup() {
         // Initialize the message board before each benchmark
-        messageBoard = new parMessageBoard();
+        messageBoard = new seqMessageBoard();
     }
 
     @Benchmark
