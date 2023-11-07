@@ -18,14 +18,14 @@ public class MyBenchmark {
     }
 
     @Benchmark
-    @Threads(4) // Specify the number of threads for this benchmark
+    @Threads(8) // Specify the number of threads for this benchmark
     public void writeMessageBenchmark() {
         // Perform the writeMessage operation in your benchmark
         messageBoard.writeMessage("Sample message");
     }
 
     @Benchmark
-    @Threads(4) // Specify the number of threads for this benchmark
+    @Threads(8) // Specify the number of threads for this benchmark
     public void readMessagesBenchmark() {
         // Perform the readMessages operation in your benchmark
         messageBoard.readMessages();
